@@ -1,4 +1,4 @@
-import data from "data.js";
+import data from "./data.js";
 
 const generateCityEls = (city) => {
     return `<tr></TR><td>${city.name}</td><td>${city.population}</td><td>${city.landArea}</td>`
